@@ -1,0 +1,38 @@
+<!--
+  ~ Copyright (C) 2015 baitouwei.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">ASwipeRefresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">SwipeRefresh</string>
+    <string name="action_refresh_success">SwipeRefreshSuccess</string>
+    <string name="action_refresh_fail">SwipeRefreshFail</string>
+    <string name="action_load_more">LoadMore</string>
+    <string name="action_load_more_success">LoadMoreSuccess</string>
+    <string name="action_load_more_fail">LoadMoreFail</string>
+    <string name="action_auto_load_more">AutoLoadMore</string>
+    <string name="action_auto_refresh">AutoRefresh</string>
+    <string name="action_other_setup">OtherSetting</string>
+    <string name="action_auto_scroll_after_loadmore">Auto scroll after loadMore</string>
+    <string name="action_loadmore_skip_num">Skip 3 item for loadmore</string>
+
+    <string name="linear_layout_manager">Linear</string>
+    <string name="staggered_gridlayout_manager">GridLayout</string>
+
+    <string name="status_swipe_refresh">Swipe Refresh</string>
+    <string name="status_release_refresh">Release To Refresh</string>
+    <string name="status_loading">Loading</string>
+</resources>

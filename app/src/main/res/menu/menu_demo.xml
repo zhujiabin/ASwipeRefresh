@@ -1,0 +1,82 @@
+<!--
+  ~ Copyright (C) 2015 baitouwei.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_refresh_success"
+        android:title="@string/action_refresh_success"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_refresh_fail"
+        android:title="@string/action_refresh_fail"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_load_more"
+        android:title="@string/action_load_more"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_load_more_success"
+        android:title="@string/action_load_more_success"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_load_more_fail"
+        android:title="@string/action_load_more_fail"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_auto_load_more"
+        android:title="@string/action_auto_load_more"
+        android:checkable="true"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_auto_refresh"
+        android:title="@string/action_auto_refresh"
+        android:checkable="true"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_other_setup"
+        android:title="@string/action_other_setup"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_auto_scroll_after_loadmore"
+                android:title="@string/action_auto_scroll_after_loadmore"
+                android:checkable="true"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_loadmore_skip_num"
+                android:title="@string/action_loadmore_skip_num"
+                android:checkable="true"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
