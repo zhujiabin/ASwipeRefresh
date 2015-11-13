@@ -16,7 +16,13 @@ Features
 
 Usage
 -------
-1. Gradle:``` compile 'com.baitouwei.aswiperefresh:1.0.0' ```
+1. Gradle:
+
+    ``` 
+    dependencies {
+        compile 'com.baitouwei:aswiperefresh:1.0.0'
+    }
+    ```
 2. Take a look at the [sample][sample]
 
 
